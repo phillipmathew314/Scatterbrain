@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Instructions Event</name>
+    <events>
+        <event-block sid="9853979940425078">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="2092396509134167" type="Mouse">
+                    <param id="0" name="Object">BackButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="7660544255901317" type="BackButton">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="2" name="Set scale" sid="5054643222646645" type="BackButton">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6847730166044018">
+            <conditions>
+                <condition id="-22" name="Else" sid="533085346794408" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="5045676919335053" type="BackButton">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="2" name="Set scale" sid="6345062790484771" type="BackButton">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6144209016475222">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="751440323145186" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">BackButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2404924217391374" type="System">
+                    <param id="0" name="Layout">Main Game Layout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

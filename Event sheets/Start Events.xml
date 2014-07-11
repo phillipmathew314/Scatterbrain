@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Start Events</name>
+    <events>
+        <event-block sid="3761704337661532">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3861411889242418" type="Mouse">
+                    <param id="0" name="Object">aboutbutton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="7785641782394305" type="aboutbutton">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="2" name="Set scale" sid="7988264583546335" type="aboutbutton">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5683670387844801">
+            <conditions>
+                <condition id="-22" name="Else" sid="8100058646159731" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="5831469634776278" type="aboutbutton">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="2" name="Set scale" sid="3763721718419633" type="aboutbutton">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9414832297720601">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="117152605364221" type="Mouse">
+                    <param id="0" name="Object">helpbutton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="8875860157997357" type="helpbutton">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="2" name="Set scale" sid="1718491597296238" type="helpbutton">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8237983816916603">
+            <conditions>
+                <condition id="-22" name="Else" sid="8809759767865365" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="4867839456060409" type="helpbutton">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="2" name="Set scale" sid="4264676317737999" type="helpbutton">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7582674804579009">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1419912665284333" type="Mouse">
+                    <param id="0" name="Object">Startbutton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="162583792037929" type="Startbutton">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="2" name="Set scale" sid="8203733036289915" type="Startbutton">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2507532963718385">
+            <conditions>
+                <condition id="-22" name="Else" sid="1398883507702995" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="327389435390352" type="Startbutton">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="2" name="Set scale" sid="6120417249808457" type="Startbutton">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4018637593792375">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4254021765892151" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">aboutbutton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2117005871330276" type="System">
+                    <param id="0" name="Layout">About Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1029688439285607">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5830860831762568" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">helpbutton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9380175135161724" type="System">
+                    <param id="0" name="Layout">Instructions Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3714344737016041">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5293650952371608" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Startbutton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6779697304565218" type="System">
+                    <param id="0" name="Layout">Stages Layout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

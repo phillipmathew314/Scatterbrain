@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Birthday Events</name>
+    <events>
+        <event-block sid="279158220237793">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="649172329003766" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Balloon</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="7763506246231337" type="BdayProgressBar">
+                    <param id="0" name="Value">25</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7328581829545426" type="Balloon">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="9" name="Remove" sid="737537935448398" type="BirthdayList">
+                    <param id="0" name="Index">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6180547402922634">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4497586791491289" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">CarKeys</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="7354226214389359" type="BdayProgressBar">
+                    <param id="0" name="Value">50</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1789104067858995" type="CarKeys">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="9" name="Remove" sid="1348201204438483" type="BirthdayList">
+                    <param id="0" name="Index">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5220237537667805">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7762684890654094" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Present</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="7927982914677641" type="BdayProgressBar">
+                    <param id="0" name="Value">75</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7184934623257566" type="Present">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="9" name="Remove" sid="8339200469773782" type="BirthdayList">
+                    <param id="0" name="Index">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3885470840458567">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6846629043642731" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Cake</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set progress" sid="2755291251290261" type="BdayProgressBar">
+                    <param id="0" name="Value">100</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5120315408301135" type="Cake">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="9" name="Remove" sid="6470236726986179" type="BirthdayList">
+                    <param id="0" name="Index">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6765555042918617">
+            <conditions>
+                <condition id="1" name="Compare progress" sid="5331261342498888" type="BdayProgressBar">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Value">100</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6527162410906114" type="System">
+                    <param id="0" name="Layout">Stage End Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4619338022667553">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3097924519944899" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Timer" id="0" name="Start timer" sid="589317555211612" type="Timer">
+                    <param id="0" name="Duration">0</param>
+                    <param id="1" name="Type">1</param>
+                    <param id="2" name="Tag">&quot;Timer&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

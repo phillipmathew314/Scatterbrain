@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Stage End Events</name>
+    <events>
+        <event-block sid="6606447481852317">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="264179179215111" type="Mouse">
+                    <param id="0" name="Object">BrainReturn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="8168338251489288" type="BrainReturn">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="2" name="Set scale" sid="3408616289579" type="BrainReturn">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="947994046785353">
+            <conditions>
+                <condition id="-22" name="Else" sid="1172531298525569" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="1100813281026245" type="BrainReturn">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="2" name="Set scale" sid="5231314921211062" type="BrainReturn">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5678368717230885">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="8424237074465058" type="Mouse">
+                    <param id="0" name="Object">HomeReturn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="8470917312392375" type="HomeReturn">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="2" name="Set scale" sid="8520476976354277" type="HomeReturn">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3047347395108305">
+            <conditions>
+                <condition id="-22" name="Else" sid="3148222168805994" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="2378469616424654" type="HomeReturn">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="2" name="Set scale" sid="1915390157891322" type="HomeReturn">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1069540528379173">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7791274271524508" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">BrainReturn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6844906993052537" type="System">
+                    <param id="0" name="Layout">Stages Layout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1404629113846853">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9457569625445866" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">HomeReturn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8869818064781936" type="System">
+                    <param id="0" name="Layout">Main Game Layout</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
